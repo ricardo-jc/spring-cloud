@@ -9,7 +9,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
-import rjc.cloud.apigatewaydynamicfilter.filter.FilterConfiguration;
+import rjc.cloud.apigatewaydynamicfilter.config.FilterConfiguration;
 
 @EnableZuulProxy
 @EnableConfigurationProperties({FilterConfiguration.class})

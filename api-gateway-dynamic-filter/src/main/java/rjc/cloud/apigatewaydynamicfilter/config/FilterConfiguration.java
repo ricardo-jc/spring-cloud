@@ -1,4 +1,4 @@
-package rjc.cloud.apigatewaydynamicfilter.filter;
+package rjc.cloud.apigatewaydynamicfilter.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
