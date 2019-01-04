@@ -29,5 +29,6 @@ class PostFilter extends ZuulFilter {
         HttpServletResponse response = RequestContext.getCurrentContext().getResponse()
         response.getOutputStream().print(", I am ricardo")
         response.flushBuffer()
+        return null
     }
 }
